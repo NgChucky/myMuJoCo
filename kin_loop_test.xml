@@ -1,0 +1,129 @@
+<mujoco>
+    <compiler convexhull="false"/>
+    <asset>
+        <mesh name="link1" file="assets\Torus_001.obj" />
+        <mesh name="link2" file="assets\Torus_002.obj" />
+        <mesh name="link3" file="assets\Torus_003.obj" />
+        <mesh name="link4" file="assets\Torus_004.obj" />
+        <mesh name="link5" file="assets\Torus_005.obj" />
+        <mesh name="link6" file="assets\Torus_006.obj" />
+        <mesh name="link7" file="assets\Torus_007.obj" />
+        <mesh name="link8" file="assets\Torus_008.obj" />
+        <mesh name="link9" file="assets\Torus_009.obj" />
+        <mesh name="link10" file="assets\Torus_010.obj" />
+        <mesh name="link11" file="assets\Torus_011.obj" />
+        <mesh name="link12" file="assets\Torus_012.obj" />
+        <mesh name="link13" file="assets\Torus_013.obj" />
+        <mesh name="link14" file="assets\Torus_014.obj" />
+        <mesh name="link15" file="assets\Torus_015.obj" />
+        <mesh name="link16" file="assets\Torus_016.obj" />
+        <mesh name="link17" file="assets\Torus_017.obj" />
+        <mesh name="link18" file="assets\Torus_018.obj" />
+        <mesh name="link19" file="assets\Torus_019.obj" />
+        <mesh name="link20" file="assets\Torus_020.obj" />
+        <mesh name="link21" file="assets\Torus_021.obj" />
+        <mesh name="link22" file="assets\Torus_022.obj" />
+        <mesh name="link23" file="assets\Torus_023.obj" />
+        <mesh name="link24" file="assets\Torus_024.obj" />
+    </asset>
+    <worldbody>
+        <light diffuse="1 1 1" pos="6 -6 6" dir="-1 1 -1"/>
+        <geom type="plane" pos="0 0 0" size="2 2 0.01"/>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link1"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link2"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link3"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link4"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link5"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link6"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link7"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link8"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link9"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link10"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link11"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link12"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link13"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link14"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link15"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link16"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link17"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link18"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link19"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link20"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link21"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link22"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link23"/>
+        </body>
+        <body>
+            <joint type="free"/>
+            <geom type="mesh" mesh="link24"/>
+        </body>
+    </worldbody>
+</mujoco>
